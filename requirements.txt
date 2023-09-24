@@ -8,3 +8,4 @@ git+https://github.com/huggingface/diffusers.git
 scipy
 huggingface_hub
 datasets
+gradio==3.29.0
