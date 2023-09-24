@@ -385,4 +385,4 @@ with gr.Blocks(css=css) as demo:
         outputs = [train_status]
     )
 
-demo.launch(debug=True)
+demo.launch(debug=True, max_threads=True, share=True, inbrowser=True)
